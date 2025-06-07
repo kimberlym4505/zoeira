@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #ffefba, #ffffff);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: #fffbe6;
+  border: 3px dashed #ff6b6b;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #d10000;
+  margin-bottom: 20px;
+}
+
+.foto img {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid #ff6b6b;
+  margin: 20px 0;
+}
+
+.zoeiras {
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-size: 1.1em;
+}
+
+.assinatura {
+  margin-top: 30px;
+  font-style: italic;
+  color: #444;
+}
